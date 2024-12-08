@@ -36,6 +36,9 @@ bindsym $mod+s layout stacking
 # start rofi
 bindsym $mod+d exec exec rofi run -show drun -font 'monospace 14'
 
+# start thunar
+bindsym $mod+e exec thunar
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
