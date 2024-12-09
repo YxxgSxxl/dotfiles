@@ -6,3 +6,5 @@ systemd/
 systemd/**
 systemd/**/*
 go/
+dconf/
+pulse/
