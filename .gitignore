@@ -3,3 +3,5 @@ spotify/
 Docker Desktop/
 xfce4/
 systemd/
+systemd/**
+systemd/**/*
