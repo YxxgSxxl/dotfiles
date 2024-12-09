@@ -5,3 +5,4 @@ xfce4/
 systemd/
 systemd/**
 systemd/**/*
+go/
