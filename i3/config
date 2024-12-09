@@ -26,6 +26,10 @@ floating_modifier $mod
 bindsym $mod+Return exec kitty
 bindsym $mod+n exec i3-sensible-terminal
 
+# screen brightness
+bindsym XF86MonBrightnessDown exec "brightness-down"
+bindsym XF86MonBrightnessUp exec "brightness-up"
+
 # kill focused window
 bindsym $mod+Shift+w kill
 
@@ -35,6 +39,9 @@ bindsym $mod+s layout stacking
 
 # start rofi
 bindsym $mod+d exec exec rofi run -show drun -font 'monospace 14'
+
+# start thunar
+bindsym $mod+e exec thunar
 
 # change focus
 bindsym $mod+j focus left
